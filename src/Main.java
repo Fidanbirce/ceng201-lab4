@@ -6,10 +6,8 @@ public class Main {
         s.push(30);
         s.push(40);
         s.push(50);
-
-        System.out.println("Middle: " + s.findMiddle());
-        s.deleteMiddle();
-        System.out.println("Middle after delete: " + s.findMiddle());
+        s.pop();
+        System.out.println("middle:"+s.findMiddle());
 
     }
 }
